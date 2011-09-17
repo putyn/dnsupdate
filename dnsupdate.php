@@ -1,6 +1,6 @@
 #!/usr/bin/php -q
 <?php
-/**
+/*
 putyn@ymail.com
 16/09/2011
 http://freedns.afraid.org dns update client written in php

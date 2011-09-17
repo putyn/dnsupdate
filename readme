@@ -10,7 +10,7 @@ the Free Software Foundation, either version 3 of the License, or
 System requirements:
  Windows or unix like operating system
  php version 5.x
- curl for php
+ curl (for php)
 
 Tested on:
  Ubuntu 10.04-x84 with php5.3.2
