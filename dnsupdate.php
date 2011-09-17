@@ -174,7 +174,7 @@ function update_hosts($hosts) {
    if(isset($foo['-l']['value'][$host])) {
      if($foo['-l']['value'][$host]['ip'] != $server_ip) {
        info(sprintf('ip for host %s is different, trying to update ...',$host));
-       info(file_get_contents($foo['-l']['value'][$host]['update_link']));
+       info(afraid_request('get',$foo['-l']['value'][$host]['update_link']));
      }
      else 
        info(sprintf('nothing to update for host %s',$host));
