@@ -55,11 +55,11 @@ Usage :
   -d  delete subdomain from your account
   -l  list your hosts\n
 Examples: 
-  dnsupdate.php -u=foo -p=boo -l
-  dnsupdate.php -u=foo -p=boo -h=foo.domain.tld
-  dnsupdate.php -u=foo -p=boo -h=foo.domain.tld,foo2.domain.tld,foo.domain2.tld
-  dnsupdate.php -u=foo -p=boo -a=foo3.domain.tld
-  dnsupdate.php -u=foo -p=boo -d=foo3.domain.tld\n
+  dnsupdate -u=foo -p=boo -l
+  dnsupdate -u=foo -p=boo -h=foo.domain.tld
+  dnsupdate -u=foo -p=boo -h=foo.domain.tld,foo2.domain.tld,foo.domain2.tld
+  dnsupdate -u=foo -p=boo -a=foo3.domain.tld
+  dnsupdate -u=foo -p=boo -d=foo3.domain.tld\n
 HELP;
  print($help);
 }
